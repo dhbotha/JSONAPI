@@ -1,99 +1,99 @@
 {
-  "Applicatiemelding": {
-    "CdApplicatiemelding": "string",
-    "CdSrtApplicatiemelding": 0,
-    "ToelApplicatiemelding": "string"
-  },
-  "NatuurlijkPersoon": {
-    "AangiftetijdvakUitkering": [
-      {
-        "CdStatusInkomstenopgave": 0,
-        "DatBAangiftetijdvak": "string",
-        "DatEAangiftetijdvak": "string",
-        "DatInzIkoUitkeringsgerechtigde": "string"
-      }
-    ],
-    "AanvraagUitkering": [
-      {
-        "AanvraagWw": {
-          "DatEersteWerkloosheidsdag": "string"
-        },
-        "AanvraagZw": {
-          "DatEersteAoDag": "string"
-        },
-        "AdministratieveEenheid": {
-          "NaamAdminEenheid": "string"
-        },
-        "BeschikkingUitkering": {
-          "CdBeslissingOpAanvraagUitkering": 0,
-          "DatBeslissingOpAanvraagUitkering": "string",
-          "DatDagtekeningBeslisOpAanvrUitk": "string",
-          "DatEBeslistermijnAanvraagUitk": "string",
-          "DatVerwEersteBetalingUitkering": "string"
-        },
-        "BewijsstukOpslag": {
-          "IndUploadBewijsstukken": 0
-        },
-        "CdStatusAanvraagUitkering": 0,
-        "CdSzWet": "string",
-        "DatAanvraagUitkering": "string",
-        "DatDossierCompleet": "string",
-        "DatOntvangstAanvraagUitkering": "string"
-      }
-    ],
-    "BetalingUitkering": [
-      {
-        "BedrUitkeringNetto": 0,
-        "CdSzWet": "string",
-        "DatBetalingUitkering": "string",
-        "DatBetUitkeringEerstvolgend": "string",
-        "Iban": "string"
-      }
-    ],
-    "Burgerservicenr": "string",
-    "CdAanduidingNaamgebruik": 0,
-    "Geboortedat": "string",
-    "Geslacht": 0,
-    "HuwelijkGeregistreerdPartner": {
-      "SignificantDeelAchternaamEchtg": "string",
-      "VoorvoegselEchtgenoot": "string"
+    "Applicatiemelding": {
+        "CdApplicatiemelding": "R",
+        "CdSrtApplicatiemelding": 1,
+        "ToelApplicatiemelding": "success"
     },
-    "Klantprofiel": {
-      "IndMogelijkRechtUitkeringIow": 0,
-      "Leeftijd": 0
-    },
-    "SamengesteldeAchternaam": "string",
-    "SamengesteldeNaam": "string",
-    "SignificantDeelVanDeAchternaam": "string",
-    "Uitkeringsverhouding": [
-      {
-        "CdSzWet": "string",
-        "DatEMaximaleUitkeringsduur": "string",
-        "DatEUitkeringsverhouding": "string",
-        "IndDirecteUitkering": 0,
-        "IndSamenloop": 0
-      }
-    ],
-    "Verwijzer": [
-      {
-        "CdBronVerwijzing": 0,
-        "DatBVerwijzing": "string",
-        "DatEVerwijzing": "string"
-      }
-    ],
-    "Voorletters": "string",
-    "Voorvoegsel": "string",
-    "Ziekmelding": [
-      {
-        "AdministratieveEenheid": {
-          "NaamAdminEenheid": "string"
+    "NatuurlijkPersoon": {
+        "AangiftetijdvakUitkering": [
+            {
+                "CdStatusInkomstenopgave": 3,
+                "DatBAangiftetijdvak": "20190101",
+                "DatEAangiftetijdvak": "20190101",
+                "DatInzIkoUitkeringsgerechtigde": "20190101"
+            }
+        ],
+        "AanvraagUitkering": [
+            {
+                "AanvraagWw": {
+                    "DatEersteWerkloosheidsdag": "20190101"
+                },
+                "AanvraagZw": {
+                    "DatEersteAoDag": "20190101"
+                },
+                "AdministratieveEenheid": {
+                    "NaamAdminEenheid": "NaamAdminEenheid"
+                },
+                "BeschikkingUitkering": {
+                    "CdBeslissingOpAanvraagUitkering": 3,
+                    "DatBeslissingOpAanvraagUitkering": "20190101",
+                    "DatDagtekeningBeslisOpAanvrUitk": "20190101",
+                    "DatEBeslistermijnAanvraagUitk": "20190101",
+                    "DatVerwEersteBetalingUitkering": "20190101"
+                },
+                "BewijsstukOpslag": {
+                    "IndUploadBewijsstukken": 1
+                },
+                "CdStatusAanvraagUitkering": 1,
+                "CdSzWet": "CdSzWet",
+                "DatAanvraagUitkering": "20190101",
+                "DatDossierCompleet": "20190101",
+                "DatOntvangstAanvraagUitkering": "20190101"
+            }
+        ],
+        "BetalingUitkering": [
+            {
+                "BedrUitkeringNetto": 1.5,
+                "CdSzWet": "striCdSzWetng",
+                "DatBetalingUitkering": "20190101",
+                "DatBetUitkeringEerstvolgend": "20190101",
+                "Iban": "12345678"
+            }
+        ],
+        "Burgerservicenr": "12345678",
+        "CdAanduidingNaamgebruik": 1,
+        "Geboortedat": "19851102",
+        "Geslacht": 1,
+        "HuwelijkGeregistreerdPartner": {
+            "SignificantDeelAchternaamEchtg": "partner",
+            "VoorvoegselEchtgenoot": "v"
         },
-        "DatEersteAoDag": "string",
-        "Hersteldmelding": {
-          "DatHersteld": "string",
-          "PercHersteld": 0
-        }
-      }
-    ]
-  }
+        "Klantprofiel": {
+            "IndMogelijkRechtUitkeringIow": 1,
+            "Leeftijd": 33
+        },
+        "SamengesteldeAchternaam": "XX",
+        "SamengesteldeNaam": "XX",
+        "SignificantDeelVanDeAchternaam": "XX",
+        "Uitkeringsverhouding": [
+            {
+                "CdSzWet": "CdSzWet",
+                "DatEMaximaleUitkeringsduur": "20190101",
+                "DatEUitkeringsverhouding": "20190101",
+                "IndDirecteUitkering": 2,
+                "IndSamenloop": 2
+            }
+        ],
+        "Verwijzer": [
+            {
+                "CdBronVerwijzing": 16,
+                "DatBVerwijzing": "20190101",
+                "DatEVerwijzing": "20190101"
+            }
+        ],
+        "Voorletters": "XX",
+        "Voorvoegsel": "XX",
+        "Ziekmelding": [
+            {
+                "AdministratieveEenheid": {
+                    "NaamAdminEenheid": "NaamAdminEenheid"
+                },
+                "DatEersteAoDag": "20190101",
+                "Hersteldmelding": {
+                    "DatHersteld": "20190101",
+                    "PercHersteld": 0.5
+                }
+            }
+        ]
+    }
 }
