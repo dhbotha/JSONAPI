@@ -1,6 +1,99 @@
 {
-    "NatuurlijkPersoon": {
-        "Burgerservicenr": "123456798",
-        "Geboortedat": "19850211"
-    }
+  "Applicatiemelding": {
+    "CdApplicatiemelding": "string",
+    "CdSrtApplicatiemelding": 0,
+    "ToelApplicatiemelding": "string"
+  },
+  "NatuurlijkPersoon": {
+    "AangiftetijdvakUitkering": [
+      {
+        "CdStatusInkomstenopgave": 0,
+        "DatBAangiftetijdvak": "string",
+        "DatEAangiftetijdvak": "string",
+        "DatInzIkoUitkeringsgerechtigde": "string"
+      }
+    ],
+    "AanvraagUitkering": [
+      {
+        "AanvraagWw": {
+          "DatEersteWerkloosheidsdag": "string"
+        },
+        "AanvraagZw": {
+          "DatEersteAoDag": "string"
+        },
+        "AdministratieveEenheid": {
+          "NaamAdminEenheid": "string"
+        },
+        "BeschikkingUitkering": {
+          "CdBeslissingOpAanvraagUitkering": 0,
+          "DatBeslissingOpAanvraagUitkering": "string",
+          "DatDagtekeningBeslisOpAanvrUitk": "string",
+          "DatEBeslistermijnAanvraagUitk": "string",
+          "DatVerwEersteBetalingUitkering": "string"
+        },
+        "BewijsstukOpslag": {
+          "IndUploadBewijsstukken": 0
+        },
+        "CdStatusAanvraagUitkering": 0,
+        "CdSzWet": "string",
+        "DatAanvraagUitkering": "string",
+        "DatDossierCompleet": "string",
+        "DatOntvangstAanvraagUitkering": "string"
+      }
+    ],
+    "BetalingUitkering": [
+      {
+        "BedrUitkeringNetto": 0,
+        "CdSzWet": "string",
+        "DatBetalingUitkering": "string",
+        "DatBetUitkeringEerstvolgend": "string",
+        "Iban": "string"
+      }
+    ],
+    "Burgerservicenr": "string",
+    "CdAanduidingNaamgebruik": 0,
+    "Geboortedat": "string",
+    "Geslacht": 0,
+    "HuwelijkGeregistreerdPartner": {
+      "SignificantDeelAchternaamEchtg": "string",
+      "VoorvoegselEchtgenoot": "string"
+    },
+    "Klantprofiel": {
+      "IndMogelijkRechtUitkeringIow": 0,
+      "Leeftijd": 0
+    },
+    "SamengesteldeAchternaam": "string",
+    "SamengesteldeNaam": "string",
+    "SignificantDeelVanDeAchternaam": "string",
+    "Uitkeringsverhouding": [
+      {
+        "CdSzWet": "string",
+        "DatEMaximaleUitkeringsduur": "string",
+        "DatEUitkeringsverhouding": "string",
+        "IndDirecteUitkering": 0,
+        "IndSamenloop": 0
+      }
+    ],
+    "Verwijzer": [
+      {
+        "CdBronVerwijzing": 0,
+        "DatBVerwijzing": "string",
+        "DatEVerwijzing": "string"
+      }
+    ],
+    "Voorletters": "string",
+    "Voorvoegsel": "string",
+    "Ziekmelding": [
+      {
+        "AdministratieveEenheid": {
+          "NaamAdminEenheid": "string"
+        },
+        "DatEersteAoDag": "string",
+        "Hersteldmelding": {
+          "DatHersteld": "string",
+          "PercHersteld": 0
+        }
+      }
+    ]
+  }
 }
